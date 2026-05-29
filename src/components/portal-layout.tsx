@@ -1,5 +1,4 @@
 import { Outlet, useLocation, Link } from "react-router-dom";
-import AccessibilityBar from "@/pages/home/_components/accessibility-bar.tsx";
 import Navbar from "@/pages/home/_components/navbar.tsx";
 import Footer from "@/pages/home/_components/footer.tsx";
 import { ChevronRight, Home } from "lucide-react";
@@ -62,7 +61,6 @@ function Breadcrumb() {
 export default function PortalLayout() {
   return (
     <div className="min-h-screen flex flex-col">
-      <AccessibilityBar />
       <Navbar />
       <Breadcrumb />
       <main id="main-content" tabIndex={-1} className="flex-1 bg-background">

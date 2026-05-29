@@ -1,4 +1,3 @@
-import AccessibilityBar from "./home/_components/accessibility-bar.tsx";
 import Navbar from "./home/_components/navbar.tsx";
 import HeroSection from "./home/_components/hero-section.tsx";
 import ImpactMetrics from "./home/_components/impact-metrics.tsx";
@@ -13,9 +12,6 @@ import LeadershipSection from "./home/_components/leadership-section.tsx";
 export default function Index() {
   return (
     <div className="min-h-screen flex flex-col">
-      {/* GIGW: Accessibility toolbar at top */}
-      <AccessibilityBar />
-
       {/* Main header / navigation */}
       <Navbar />
 
